@@ -1,4 +1,4 @@
 profile
 =======
 
-This is all about Me >_&lt;
+This is all about Me;
