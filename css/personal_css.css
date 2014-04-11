@@ -128,6 +128,7 @@ header
 	text-transform:uppercase;
 	text-decoration:none;
 	color:#000;
+	outline:none;
 	line-height:25px;
 	transition:all 0.2s linear;
 }
