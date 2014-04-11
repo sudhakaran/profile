@@ -1,101 +1,237 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!doctype html>
+<html>
 <head>
+<meta charset="UTF-8"><title>Selvarani - Personal Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/ie-responsive.js"></script>
 
-	<meta charset="UTF-8">
-	<title>GoFrugal Home</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if lt IE 7]><p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
+<!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lte IE 8 ]>
+      <html class="ie8">
+      <![endif]-->
+      
+<link rel="stylesheet" href="css/personal_css.css"/>
 
-	<!-- CSS Styles -->
-
-
-	<style type="text/css">
-	html, body {
-    height:100%;
-	}
-	body {
-		background-color:#fff;
-		font:15px 'Oswald', sans-serif;
-		font-weight:300;
-		color:#222;
-		-webkit-font-smoothing:antialiased;
-		-webkit-text-size-adjust:100%;
-		text-align:left;
-		width:100%;
-		height:100%;
-		text-align:center;
-		padding:0;
-		margin:0;
-	}
-
-	/* parallax--------------------------------------------------------*/
-	.parallax {
-		width:100%;
-		height:100%;
-		padding:0;
-		margin:0;
-		background-attachment:fixed;
-		background-repeat:no-repeat;
-		border-top:10px solid rgba(255,255,255,0.3);
-		border-bottom:10px solid rgba(255,255,255,0.3);
-		color:#fff;
-		background-size:cover;
-	}
-	</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/personal_js.js"></script>
+<script src="js/ie-responsive.js"></script>
 
 </head>
 
 <body>
+<section id="wrapper">
+<nav id="mobile_menu"><img src="images/menu.png" alt="" title=""/></nav>
+<header class="header_main">
+<nav id="menu">
+<ul>
+<li><a href="#about"><h2>About</h2><span>The one and only</span></a></li>
+<li><a href="#work"><h2>Work</h2><span>View case studies</span></a></li>
+<li><a href="#contact"><h2>Contact</h2><span>Let's get in touch</span></a></li>
+</ul>
+</nav>
+<article class="copyright_header">&copy; 2014 Selvarani.<br/>All rights are reserved.</article>
 
-    
-<!--start parallax 1-->
-
-     <div class="parallax" style="background-image: url(images/parallax/parallax-1.jpg);"></div>
-
-<!--end parallax-->
-
-<!--start parallax 2-->
-
-     <div class="parallax" style="background-image: url(images/parallax/parallax-2.jpg);"></div>
-
-<!--end parallax 2-->   
-
-
-<!--start parallax 3-->
-
-     <div class="parallax" style="background-image: url(images/parallax/parallax-3.jpg);"></div>
-
-<!--end parallax 3-->    
+<nav class="float_menu"><img src="images/menu.png" alt="" title=""/></nav>
+</header>
 
 
-<!--start parallax 4-->
+<section id="main">
+<a class="scrollup" href="#">Scroll</a>
+<section id="container">
 
-     <div class="parallax" style="background-image: url(images/parallax/parallax-4.jpg);"></div>
+<section id="about">
+<h1>Selvarani<br/><span>User-Interface developer</span></h1>
+<article class="content_left">
+<p>Though I am a UI(User-Interface) developer having the experience of 2 years. I have good knowledge in HTML5, CSS3, Jquery and JavaScript.</p>
+<p>I am an alumnus of <a href="http://oxfordec.edu.in/" target="_blank">Oxford Engineering College, Trichy</a> program, graduating Bachelor of Technology with the major of Information Technology. Currently residing in Scope e-knowledge Center Pvt Ltd., Chennai, I am looking to grow professionally and personally anywhere within Tamilnadu.</p>
+<p>I want to be involve projects that I can be proud of, join an amazing team, and advance my design and development career. Take some time to look at my work, credentials, and if you’re interested in helping me make this happen, <a href="#contact">let’s get in touch.</a></p>
+</article>
+<article class="content_right">
+<a href="#resume" class="content">
+<img src="images/resume.png" alt="Resume" title="Resume"/><br/>Resume<br/><span>View profile</span>
+</a>
 
-<!--end parallax 4-->
+<a href="#github" class="content">
+<img src="images/github.png" alt="GitHub" title="GitHub"/><br/>Github<br/><span>View Repositories</span>
+</a>
+</article>
+</section>
+
+<section id="work">
+<h1>Work<br/><span>A showcase of design,<br/>development, experiments and more</span></h1>
+<section class="buckets">
+
+<article>
+<a href="#image-10">
+	<img src="images/logos/logo-cc.jpg" alt="Custom Coils, Inc." title="Custom Coils, Inc.">
+	<span><em>Custom Coils, Inc.</em></span>
+</a>
+
+<div class="lb-overlay" id="image-10">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.ccoils.com/index.html" target="_blank">www.ccoils.com</a></h3>
+<iframe src="http://www.ccoils.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+
+<article>
+<a href="#image-9">
+	<img src="images/logos/logo-tuson.jpg" alt="Tuson Corporation" title="Tuson Corporation">
+	<span><em>Tuson Corporation</em></span>
+</a>
+
+<div class="lb-overlay" id="image-9">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.tuson.com/index.html" target="_blank">www.tuson.com</a></h3>
+<iframe src="http://www.tuson.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+
+<article>
+<a href="#image-8">
+	<img src="images/logos/logo-william.jpg" alt="Williams Foam" title="Williams Foam">
+	<span><em>Williams Foam</em></span>
+</a>
+
+<div class="lb-overlay" id="image-8">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.williamsfoam.com/index.html" target="_blank">www.williamsfoam.com</a></h3>
+<iframe src="http://www.williamsfoam.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+
+<article>
+<a href="#image-7">
+	<img src="images/logos/logo-fluid.jpg" alt="Fluid Logic Valves" title="Fluid Logic Valves">
+	<span><em>Fluid Logic Valves</em></span>
+</a>
+
+<div class="lb-overlay" id="image-7">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.fluidlogicvalve.com/index.html" target="_blank">www.fluidlogicvalve.com</a></h3>
+<iframe src="http://www.fluidlogicvalve.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+
+<article>
+<a href="#image-6">
+	<img src="images/logos/logo-sat.jpg" alt="Satellink" title="Satellink">
+	<span><em>Satellink</em></span>
+</a>
+
+<div class="lb-overlay" id="image-6">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.satellink.com/index.html" target="_blank">www.satellink.com</a></h3>
+<iframe src="http://www.satellink.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+
+<article>
+<a href="#image-5">
+	<img src="images/logos/logo-tns.jpg" alt="TNS Machining Facilities, Inc." title="TNS Machining Facilities, Inc.">
+	<span><em>TNS Machining Facilities, Inc.</em></span>
+</a>
+
+<div class="lb-overlay" id="image-5">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.tnsmachining.com/index.html" target="_blank">www.tnsmachining.com</a></h3>
+<iframe src="http://www.tnsmachining.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+
+<article>
+<a href="#image-4">
+	<img src="images/logos/logo-ice.jpg" alt="IceSolve, LLC" title="IceSolve, LLC">
+	<span><em>IceSolve, LLC</em></span>
+</a>
+
+<div class="lb-overlay" id="image-4">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.icesolve.net/index.html" target="_blank">www.icesolve.net</a></h3>
+<iframe src="http://www.icesolve.net/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+
+<article>
+<a href="#image-3">
+	<img src="images/logos/logo-clark.jpg" alt="Clark Rubber & Plastics" title="Clark Rubber & Plastics">
+	<span><em>Clark Rubber & Plastics</em></span>
+</a>
+
+<div class="lb-overlay" id="image-3">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.clarkrandp.com/index.html" target="_blank">www.clarkrandp.com</a></h3>
+<iframe src="http://www.clarkrandp.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
 
 
-<!--start parallax 5-->
+<article>
+<a href="#image-2">
+	<img src="images/logos/logo-cindus.jpg" alt="Cindus" title="Cindus">
+	<span><em>Cindus</em></span>
+</a>
+<div class="lb-overlay" id="image-2">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.cindus.com/index.html" target="_blank">www.cindus.com</a></h3>
+<iframe src="http://www.cindus.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
 
-     <div class="parallax" style="background-image: url(images/parallax/parallax-5.jpg);"></div>
+<article>
+<a href="#image-1">
+	<img src="images/logos/logo-gleco.jpg" alt="Gleco Plating" title="Gleco Plating">
+	<span><em>Gleco Plating</em></span>
+</a>
+<div class="lb-overlay" id="image-1">
+<a href="#page" class="lb-close">x Close</a>
+<h3><a href="http://www.gleco.com/index.html" target="_blank">www.gleco.com</a></h3>
+<iframe src="http://www.gleco.com/index.html" width="500" height="500" scrolling="no"></iframe>
+</div>
+</article>
+</section>
+</section>
 
-<!--end parallax 5-->
+
+<section id="contact">
+<h1>Contact Me<br/><span>urrently available for hire<br/>and would love to hear from you</span></h1>
+<article>
+<strong>Selvarani</strong><br/>
+<span>selvaranis05@gmail.com</span><br/>
+#00, xyz Street,<br/>
+Xyz Nagar,<br/>
+Tiruchirappalli,<br/>
+Tamilnadu - 620 011.<br/>
+
+</article>
+<form name="contact_form" id="contact_form" action="contact-form.php" method="get">
+<span><label for="name" class="l_name">Name</label><input type="text" name="name" id="name" value="" placeholder="Enter Your Name" onBlur="namevalidate()"/><em>*</em><span id="error_name">Enter your name</span></span>
+<span><label for="email" class="l_email">Email</label><input type="email" name="email" id="email" value="" placeholder="Enter Your Email" onBlur="emailvalidate()"/><em>*</em><span id="error_mail">Enter valid email</span></span>
+<span><label for="msg" class="l_msg">Message</label><textarea name="msg" id="msg" placeholder="Type Your Message"></textarea></span>
+<span><input type="submit" value="Submit" id="submit"/></span>
+</form>
+</section>
+
+<section id="resume"></section>
+
+<section id="github"></section>
 
 
-<!--start parallax 6-->
 
-     <div class="parallax" style="background-image: url(images/parallax/parallax-6.jpg);"></div>
-
-<!--end parallax 6-->
-
+</section>
+<article class="copyright_footer">&copy; 2014 Selvarani.<br/>All rights are reserved.</article>
+</section>
 
 
+
+</section>
 </body>
-
 </html>
-
