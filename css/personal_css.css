@@ -261,10 +261,11 @@ p
 	line-height: 30px;
 	color: white;
 	font-size: 20px;
-	display:none;
+	display:table;
 	background:#cc3333;
 	word-wrap:normal;
-	transition:all 0.5s linear;
+	transition:all 0.3s linear;
+	opacity:0;
 }
 .buckets article span em
 {
@@ -582,7 +583,7 @@ p
 .buckets article:hover span
 {
 	display:table;
-	transition: all 0.5s linear;
+	opacity:1;
 }
 .lb-overlay:target
 {
