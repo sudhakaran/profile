@@ -40,6 +40,7 @@ $(window).bind('resize orientationchange', function() {
 	/********************Scoll the section*********************/
 	$("#menu ul li a").click(function()
 	{
+		$("#resume").css("display", "none");
 		var id=$(this).attr("href");
 		$("html, body").animate({
 			scrollTop: $(id).offset().top},1000);
@@ -92,7 +93,30 @@ $("html, body").animate({ scrollTop: 0 }, 600);
 return false;
 });
 
-	
+$("a").click(function()
+	{
+		var id=$(this).attr("href");
+		//alert(id);
+		$("html, body").animate({
+			scrollTop: $(id).offset().top},1000);
+				
+			$("header.active").hide("slow");
+			
+			return false;
+	}); // end of scroll section
+		
+$("a[href='#resume']").click(function()
+{
+	var rid=$(this).attr("href");
+	$(rid).css("display","block");
+	$("html, body").animate({
+		scrollTop: $(rid).offset().top},1000);
+			
+	return false;
+});
+		
+		
+		
 }); // end of document ready function
 
 
